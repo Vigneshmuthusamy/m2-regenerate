@@ -33,7 +33,7 @@ module.exports = function(grunt) {
             // Assumption is we're in {MAGE_ROOT}/bin/regenerate
             "app": "../../app",
             "var": '<%= path.app %>/../var',
-            "generation": '<%= path.var %>/generation',
+            "generation": '<%= path.app %>/../generated',
             "modules": '<%= path.app %>/code'
         },
         watch: {
